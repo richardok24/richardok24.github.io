@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="index.js" async></script>
+  </head>
+  <body>
+  	<main>
+      <div id="scroll">
+        <div class="navbar">
+          <img src="assets/Logo.jpg" id="logo" alt="My logo">
+          <h1>Richard Xie</h1>
+          <div id="menuBox">
+            <a href="#Home">Home</a>
+            <a href="#Lango">Projects</a>
+            <a href="#Contact">Contact</a>
+          </div>
+        </div>
+        <div class="page" id="Home">
+          <div class="bio">
+            <img src="./assets/selfie.png" id="selfie" alt="Selfie">
+            <h1 id="first">Richard Xie</h1>
+            <h1 id="second">New Grad, Developer, Gamer</h1>
+            <div class="container">
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+              <span class="text">Scroll down</span>
+            </div>
+          </div>
+        </div>
+        <div class="page" id="Lango">
+          <div id="LangoPageOuterBox">
+            <div id="LangoPageInnerBox1">
+              <div>
+        				<h1 class="LangoPageTitle1">Welcome to</h1>
+        				<h1 class="LangoPageTitle1">Lango!</h1>
+        				<h1 id="LangoPageTitle2">Customize your vocabulary</h1>
+                <div id="LangoButtons">
+                  <a href="http://server162.site:51072/login.html" target="_blank">
+                    <button class="pageButton" type="button">Try it out!</button>
+                  </a>
+                  <a href="https://github.com/richardok24/ECS-162-Public/tree/master/Lango" target="_blank">
+            				<button class="GithubButton" type="button">
+            					<img src="./assets/GitHub-Mark-120px-plus.png" alt="Github Icon"/>
+            					Github
+            				</button>
+                  </a>
+          			</div>
+        			</div>
+            </div>
+            <div id="LangoPageInnerBox2">
+                <div id="LangoIntro">
+                  <p>
+                    Lango is a flashcard app that helps people learn Chinese.
+                    Users can log in with their gmail accounts, store the
+                    flashcards that they created, and start reviewing.
+                  </p>
+          			</div>
+                <div id="instructions">
+                  <h1>Instructions</h1>
+                  <ol>
+                    <li>Log in with your gmail account.</li>
+                    <li>Enter the English word in the left box.</li>
+                    <li>Press Enter to translate it into Chinese.</li>
+                    <li>Click "Save" if you want to save the flashcard.</li>
+                    <li>If you are ready to review, click "Start Review".</li>
+                    <li>Type in the correct English translation.</li>
+                    <li>Either press Enter or click on the flashcard to check answer.</li>
+                    <li>You can go back and forth between the Add and Review page anytime you want.</li>
+                    <li>Enjoy learning!</li>
+                  </ol>
+          			</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="page" id="Weather">
+          <img id="WeatherImg" src="./assets/weather.png" alt="Weather App">
+          <div id="WeatherIntro">
+            <p>
+              This is a weather widget that shows the six hour forecast for
+              cities within 150 miles of Sacramento. Users can enter any city or
+              zip code within the range and click "submit" to see the forecast.
+              A doppler weather radar map is also shown on the right side of the
+              app.
+            </p>
+          </div>
+          <div id="WeatherButtons">
+            <a href="./weatherDesign/weatherDesign.html" target="_blank">
+              <button id="WeatherButton1" class="pageButton" type="button">Try it out!</button>
+            </a>
+            <a href="https://github.com/richardok24/ECS-162-Public/tree/master/weatherDesign" target="_blank">
+              <button id="WeatherButton2" class="GithubButton" type="button">
+                <img src="./assets/GitHub-Mark-120px-plus.png" alt="Github Icon"/>
+                Github
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="page" id="Museum">
+          <img id="MuseumImg" src="./assets/museum.png" alt="Museum Page">
+          <div id="MuseumIntro">
+            <p>
+              This is a web page for introducing one of the exhibits at the Manetti Shrem museum.
+            </p>
+          </div>
+          <div id="MuseumButtons">
+            <a href="./museum/source/exhibit.html" target="_blank">
+              <button id="MuseumButton1" class="pageButton" type="button">Check it out!</button>
+            </a>
+            <a href="https://github.com/richardok24/ECS-162-Public/tree/master/museum" target="_blank">
+              <button id="MuseumButton2" class="GithubButton" type="button">
+                <img src="./assets/GitHub-Mark-120px-plus.png" alt="Github Icon"/>
+                Github
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="page" id="Contact">
+          <a href="mailto:richardok24@gmail.com" class="zocial gmail"> Gmail &nbsp;</a>
+          <a href="https://www.linkedin.com/in/richx/" class="zocial linkedin" target="_blank"> LinkedIn &nbsp;</a>
+          <a href="https://github.com/richardok24" class="zocial github" target="_blank">Github &nbsp;</a>
+        </div>
+      </div>
+  	</main>
+  </body>
+</html>
